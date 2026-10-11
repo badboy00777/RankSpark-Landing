@@ -10,4 +10,4 @@ document.querySelectorAll('.faq-question').forEach((question) => {
         question.classList.toggle('active');
         answer.classList.toggle('show');
     });
-}
+});
