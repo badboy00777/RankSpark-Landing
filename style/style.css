@@ -269,3 +269,47 @@ body {
     background: #f3f4f6;
     transform: translateY(-2px);
 }
+
+.testimonials {
+    padding: 5rem 1.5rem;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 1.9rem;
+    margin-bottom: 3rem;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.testimonial-card {
+    background: var(--light-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: left;
+    transition: box-shadow 0.2s ease;
+}
+
+.testimonial-card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.testimonial-card p {
+    color: var(--dark);
+    font-style: italic;
+    margin-bottom: 1.2rem;
+}
+
+.testimonial-card h4 {
+    font-size: 0.95rem;
+}
+
+.testimonial-card span {
+    color: var(--gray);
+    font-size: 0.85rem;
+}
