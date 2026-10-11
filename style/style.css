@@ -240,3 +240,32 @@ body {
     font-size: 1rem;
     color: var(--gray);
 }
+
+.cta {
+    background: var(--primary);
+    color: #fff;
+    padding: 4.5rem 1.5rem;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+}
+
+.cta p {
+    color: #e0e7ff;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    font-size: 1.1rem;
+}
+
+.btn-white {
+    background: #fff;
+    color: var(--primary);
+}
+
+.btn-white:hover {
+    background: #f3f4f6;
+    transform: translateY(-2px);
+}
